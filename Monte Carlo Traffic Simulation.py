@@ -25,7 +25,7 @@ class car:
     def __init__(self, name='noNameCar'):
         self.name = name
         self.length = 2.5
-        self.speed = 11.176 + float(np.random.beta(6, 2, 1))
+        self.speed = 10.3 + float(np.random.beta(6, 2, 1))
 
 
 class traffic_light:
