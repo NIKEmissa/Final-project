@@ -48,5 +48,7 @@
 
 ## Sources Used:
 Traffic light control and coordination: https://en.wikipedia.org/wiki/Traffic_light_control_and_coordination
+
 The normal distrubution: https://en.wikipedia.org/wiki/Normal_distribution
+
 The Uniform distrubution: https://en.wikipedia.org/wiki/Uniform_distribution_(continuous)
