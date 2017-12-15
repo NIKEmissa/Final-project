@@ -223,7 +223,8 @@ for currentCS in range(100000):
                 if car.RemainDis > 0:
                     print(' This is car #', '{0:0>3}'.format(str(carNum)), '\n', 'The remaining distance:',
                           '{0:>10,.4f}'.format(car.RemainDis), '  ', 'The car is running')
-            car.MoveTime += 0.1
+            if car.RemainDis > 0:
+                car.MoveTime += 0.1
 
     # If the remian distance is negative, the car was leaving the road.
     if Green_road.cars.iloc[:, len(Green_road.cars.columns) - 1].RemainDis < 0:
