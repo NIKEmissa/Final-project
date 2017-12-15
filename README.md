@@ -44,7 +44,7 @@
   We think it will be a good representation of reality because the variables and the time range are also selected from reality and also we combine the green light and yellow light to simulate the situation that some people always try to jump a yellow light.
 
 ## Instructions on how to use the program:
-  Users are allowed to input customized values for the amount of the cars, then the program will calculate each car's remaining distance and the car's status, program will keep output the first car’s information and the last one’s information. Users can see how many distance that still remains for the cars. In the end, it will users can see the summaries for the cars and the lights. Also, the average total time spent on the selected road can be saw.
+  Users are allowed to input customized values for the amount of the cars, then the program will calculate each car's remaining distance and the car's status, program will keep output the first car’s information and the last one’s information. Users can see how many distance that still remains for the cars. In the end, users can see the summaries for the cars and the lights. Also, the average total time spent on the selected road can be saw.
 
 ## Sources Used:
 Traffic light control and coordination: https://en.wikipedia.org/wiki/Traffic_light_control_and_coordination
