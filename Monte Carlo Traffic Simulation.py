@@ -22,14 +22,11 @@ class car:
     2.5
     """
 
-
     def __init__(self, name='noNameCar'):
         self.name = name
         self.length = 2.5
         self.speed = 11.176 + float(np.random.beta(6, 2, 1))
 
-
-# In[3]:
 
 class traffic_light:
     """
@@ -44,7 +41,6 @@ class traffic_light:
         self.Colors = ['G', 'R']
 
 
-# In[4]:
 
 class road:
     def __init__(self, length=3000):
