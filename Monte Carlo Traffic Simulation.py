@@ -206,7 +206,8 @@ for currentCS in range(100000):
                 if car.RemainDis > 0:
                     print(' This is car #', '{0:0>3}'.format(str(carNum)), '\n', 'The remaining distance:',
                           '{0:>10,.4f}'.format(car.RemainDis), '  ', 'The car is stop')
-            car.StopTime += 0.1
+                if car.CurrentLoc > 0:
+                    car.StopTime += 0.1
 
         else:  # keep running
 
